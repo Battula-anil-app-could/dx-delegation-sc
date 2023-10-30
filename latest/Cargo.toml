@@ -1,0 +1,18 @@
+[package]
+name = "delegation_latest"
+version = "0.5.8"
+authors = ["Andrei Marinica <andrei.marinica@dharitri.com>"]
+edition = "2018"
+[dependencies.node-storage]
+path = "../node-storage"
+
+[dependencies.user-fund-storage]
+path = "../user-fund-storage"
+
+[dependencies.dharitri-sc-modules]
+version = "0.0.3"
+
+[dependencies.dharitri-sc]
+version = "0.0.3"
+[dev-dependencies.dharitri-sc-scenario]
+version = "0.0.3"
